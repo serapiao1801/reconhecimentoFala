@@ -2,8 +2,6 @@ import speech_recognition as sr
 
 # - criar um "reconhecedor"
 rec = sr.Recognizer()
-
-
 # para escolher qual microfone vamos usar, rode:
 # print(sr.Microphone().list_microphone_names())
 with sr.Microphone(device_index=3) as microfone:
